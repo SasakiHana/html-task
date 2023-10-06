@@ -17,3 +17,7 @@ th{
 body{
     background-image: url(シンデレラ城.jpg);
 }
+
+table caption{
+    color: blanchedalmond;
+}
