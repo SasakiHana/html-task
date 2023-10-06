@@ -1,0 +1,19 @@
+table,th,td{
+border: solid #fefefe 3px;
+border-collapse: collapse;
+}
+img{
+    width: 15%;
+    width: 300px;
+    height: 300px;
+}
+li,td{
+    font-size: 15px;
+    color:aliceblue;
+}
+th{
+    color: rgb(254, 254, 254);
+}
+body{
+    background-image: url(シンデレラ城.jpg);
+}
