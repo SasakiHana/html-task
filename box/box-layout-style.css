@@ -1,0 +1,57 @@
+@charset "utf-8";
+.box{
+    display: flex;
+   justify-content: space-evenly;
+   flex-wrap: wrap;
+} 
+.img{
+    width: 30%;
+    object-fit: contain;
+    margin: 8px;
+    padding: 8px;
+    background-color: rgb(161, 217, 254);
+} 
+h1{
+    text-align: center;
+    font-family: "HGP創英角ﾎﾟｯﾌﾟ体";
+    color: rgb(80, 170, 255);
+}  
+div{
+    margin: 10px;
+    text-align: center;
+}
+h2{
+    width: 90%;
+    font-family: "MSゴシック";
+    text-align: center;
+}
+img{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+.items img{
+    width: 70%;
+    height: 70%;
+    object-fit: contain;
+}
+a{
+    width: 30%;
+    border-radius: 30px;
+    margin: 0 auto;
+    padding: 10px ;
+    background-color :rgb(242, 255, 171);
+    display: block;
+    text-decoration: none;
+}
+p{
+    font-family: "HGP創英角ﾎﾟｯﾌﾟ体";
+    line-height: 1.5;
+    width: 90%;
+    margin: 0 auto;
+}
+.items img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
