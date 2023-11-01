@@ -5,7 +5,7 @@
    flex-wrap: wrap;
 } 
 .img{
-    width: 30%;
+    width: 25%;
     object-fit: contain;
     margin: 8px;
     padding: 8px;
