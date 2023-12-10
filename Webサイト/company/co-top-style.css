@@ -1,0 +1,158 @@
+@charset "utf-8";
+
+h2, h3{
+    text-align: center;
+
+}
+h2{
+    margin-top: 1rem;
+}
+
+body main h3 {
+        position: relative;
+        padding: 1.5rem 2rem;
+        border: 3px solid #d8d8d8;
+        border-radius: 10px;
+        background: #f9f9f9;
+      }
+      
+      h3:before {
+        position: absolute;
+        bottom: -14px;
+        left: 1em;
+        width: 0;
+        height: 0;
+        content: '';
+        border-width: 14px 12px 0 12px;
+        border-style: solid;
+        border-color: #d8d8d8 transparent transparent transparent;
+      }
+      
+      h3:after {
+        position: absolute;
+        bottom: -10px;
+        left: 1em;
+        width: 0;
+        height: 0;
+        content: '';
+        border-width: 14px 12px 0 12px;
+        border-style: solid;
+        border-color: #f9f9f9 transparent transparent transparent;
+      }
+
+.box {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box ul {
+    text-align: center;
+    padding: 0;
+}
+
+.box a {
+    text-decoration: none;
+    color: green;
+}
+
+.box li {
+    list-style: none;
+}
+
+table {
+    margin: 0 auto;
+}
+
+.frame {
+    margin-bottom: 2rem;
+    display: flow-root;
+    margin-top: 2rem;
+}
+.frame a{
+    color: blue;
+}
+.frame a:hover{
+    text-decoration: none;
+}
+
+.frame div{
+    margin-top: 1rem;
+}
+.frame ul{
+  list-style: none;
+}
+
+.float-left {
+    width: 50%;
+    margin: 0 1rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    border-left: 1rem;
+    border-right: 1rem;
+    float: left;
+    /*右上に配置したい場合は値にrightを記述*/
+}
+
+.frame p {
+    line-height: 1.8;
+    letter-spacing: 0.05em;
+    font-size: 16px;
+    text-align: justify;
+    width: 100%;
+    margin-left: 1rem;
+}
+#page_top a::before{
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: '\f139';
+    font-size: 25px;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 0;
+    bottom: 10px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    text-align: right;
+}
+#page_top{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    opacity: 0.6;
+  }
+  #page_top a{
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+  }
+  img{
+    width: 50%;
+    height: auto;
+  }
+
+  ul {
+    padding: 0;
+  }
+
+  
+  .box-list ul li{
+    color: #404040;
+    border-left: solid 6px #1fa67a;/*左側の線*/
+    border-bottom: solid 2px #dadada;/*下に灰色線*/
+    background: whitesmoke;
+    margin-bottom: 5px;/*下のバーとの余白*/
+    line-height: 1.5;
+    padding: 0.5em;
+    list-style-type: none!important;/*ポチ消す*/
+    font-weight: bold;
+  }
+  main{
+    margin: 10px 250px 5px;
+    padding: 1rem;
+  }

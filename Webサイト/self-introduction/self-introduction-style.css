@@ -1,0 +1,17 @@
+@charset "utf-8";
+.mark-list {
+    list-style: "★";
+}
+h2{
+    padding: 1rem;
+}
+ul li {
+    color: blue;
+    background: #dfeaf5;
+    margin-bottom: 3px;
+     line-height: 1.5;
+    padding: 0.5em;
+  }
+  p{
+    padding: 1rem;
+  }
