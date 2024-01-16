@@ -10,3 +10,13 @@ body{
 img{
     width: 300px;
 }
+span{
+    color:red;
+}
+.syumi{
+    background-color: aliceblue;
+}
+div{
+    font-weight: bold;
+    font-size: 10px;
+}
