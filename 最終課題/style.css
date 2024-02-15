@@ -1,0 +1,456 @@
+@charset "utf-8";
+
+#index #wrap {
+  background-color: transparent;
+  margin-top: 0;
+  padding: 0;
+}
+
+#main-center {
+  background-image: url(img/king&prince.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 150vh;
+  margin: 0;
+  overflow: hidden;
+}
+
+#live {
+  background-image: url(live/img/キンプリ4.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 130vh;
+}
+
+#member {
+  background-image: url(member/img/虹色.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 130vh;
+}
+
+#song {
+  background-image: url(song/img/パンダ.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 130vh;
+}
+
+.main-center {
+  width: 940px;
+  margin: 0 auto;
+  color: rgba(239, 237, 237, 0.963);
+  clear: both;
+  padding: 100px 0 35px 0;
+  text-align: center;
+}
+
+.langage {
+  color: #000000;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(214, 213, 213, 0.669);
+  font-family: 'Bitter', serif;
+}
+
+#index header {
+  background-color: none;
+}
+
+.global-nav {
+  display: flex;
+  margin-top: 60px;
+}
+
+.global-nav li {
+  margin: 0 20px;
+  font-size: 20px;
+  list-style: none;
+}
+
+.global-nav a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.global-nav a:hover {
+  border-bottom: 2px solid #000000;
+  padding-bottom: 3px;
+  text-decoration: none;
+}
+
+/* footer {
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color: #000000;
+} */
+
+footer small {
+  font-size: 12px;
+}
+
+h3 {
+  position: relative;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 0;
+  text-align: center;
+  margin: 1.5em 0;
+}
+
+h3:before {
+  content: "";
+  position: absolute;
+  top: -8px;
+  left: 50%;
+  width: 150px;
+  height: 58px;
+  border-radius: 50%;
+  border: 5px solid #cfbbceef;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.logobox {
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+}
+
+dd li {
+  display: block;
+  text-decoration: none;
+  position: relative;
+}
+
+.footer_sns {
+  display: flex;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+dl {
+  display: flex;
+}
+
+.footer_sns dt {
+  text-align: center;
+  line-height: 3;
+  /* 適切な高さを設定してください */
+}
+
+.footer_sns_list {
+  display: flex;
+  padding-left: 0;
+  margin: 0 auto;
+}
+
+.footer_sns_item {
+  margin: 10px;
+}
+
+.footer_logo {
+  text-align: center;
+}
+
+
+.font_en {
+  text-align: center;
+}
+
+.box li a::after {
+  color: black;
+}
+
+.box {
+  padding: 20px;
+  width: 150px;
+  height: 480px;
+  margin: 0;
+  background: rgba(0, 0, 0, 0.5);
+
+}
+
+.box ul li a h1 {
+  font-size: 15px;
+}
+
+.box li a {
+  text-decoration: none;
+}
+
+main {
+  margin: auto;
+}
+
+.box h1 {
+  color: rgba(255, 255, 255, 0.995);
+}
+
+
+#characters .wrap {
+  width: 50%;
+  margin-top: 12vh;
+  margin-bottom: 5vw;
+  font-size: 1vw;
+  display: flex;
+}
+
+.wrap {
+  width: 70%;
+  margin: 0 auto;
+}
+
+body {
+  color: rgb(255, 255, 255);
+}
+
+section {
+  background: rgba(0, 0, 0, 0.5);
+  background-repeat: repeat;
+  background-size: 20vw;
+  margin-bottom: 5vw;
+  width: 700px;
+  margin: auto;
+}
+
+.img1 {
+  display: block;
+  width: 50%;
+  height: auto;
+  flex: 0 0 auto;
+  flex-shrink: 0;
+  margin-right: 20px;
+}
+
+.contents img {
+  width: 250px;
+}
+
+.contents2 img {
+  width: 250px;
+}
+
+.contents3 img {
+  width: 250px;
+}
+
+.contents4 img {
+  width: 250px;
+}
+
+.contents5 img {
+  width: 250px;
+}
+
+.contents div {
+  flex: 1;
+}
+
+.contents2 div {
+  flex: 1;
+}
+
+.contents3 div {
+  flex: 1;
+}
+
+.contents4 div {
+  flex: 1;
+}
+
+.contents5 div {
+  flex: 1;
+}
+
+.contents {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  height: 300px;
+}
+
+.contents2 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  height: 300px;
+}
+
+.contents3 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  height: 300px;
+}
+
+.contents4 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  height: 300px;
+}
+
+.contents5 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  height: 300px;
+}
+
+.sideber {
+  color: #000000;
+  margin-top: 20px;
+}
+
+.sidebar ul {
+  list-style-position: inside;
+
+}
+
+.sidebar ul a {
+  color: #333333;
+}
+
+.foot {
+  text-align: right;
+}
+
+#wrap {
+  width: 1100px;
+  margin-top: 100px;
+  display: flex;
+}
+
+#wrap main {
+  width: 50%;
+}
+
+#wrap aside {
+  width: 20%;
+}
+
+div h1 {
+  font-size: 1.3rem;
+}
+
+.font_en {
+  color: #000000;
+}
+
+#movie .tour img:hover {
+  opacity: 0.8;
+}
+
+#movie .tour2 img:hover {
+  opacity: 0.8;
+}
+
+.scroll {
+  height: 300px;
+  overflow: auto;
+}
+
+.box2 {
+  display: flex;
+}
+
+#movie p {
+  margin: 0 90px auto 90px;
+}
+
+/*マウスホバーしたときの背景色*/
+.contents:hover {
+  background-color: rgba(242, 242, 63, 0.952);
+}
+
+.kaito h1:hover {
+  color: rgba(242, 242, 63, 0.952);
+}
+
+.contents:hover .moji {
+  color: #000;
+}
+
+.contents2:hover {
+  background-color: black;
+}
+
+.ren h1:hover {
+  color: #000;
+}
+
+.contents3:hover {
+  background-color: rgba(232, 13, 13, 0.959);
+}
+
+.sho h1:hover {
+  color: rgba(255, 136, 136, 0.959);
+}
+
+.contents4:hover {
+  background-color: rgb(185, 1, 185);
+}
+
+.kishi h1:hover {
+  color: rgb(255, 23, 255);
+}
+
+.contents5:hover {
+  background-color: rgb(2, 222, 222);
+}
+
+.jin h1:hover {
+  color: rgb(2, 222, 222);
+}
+
+.moji {
+  color: hsl(0, 33%, 99%);
+}
+
+.fv__deco__fv__deco02 {
+  position: absolute;
+  width: 13vw;
+  top: 40vw;
+  left: 76vw;
+  transform: inherit;
+}
+
+.fv__deco__fv__deco03 {
+  position: absolute;
+  width: 8vw;
+  top: 45vw;
+  left: 72vw;
+  transform: inherit;
+}
+
+#menber li a h1 {
+  text-decoration: none;
+}
